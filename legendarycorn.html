@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LegendaryCorn</title>
+  <link rel ="icon" type = "png" href = "profpic.PNG">
+  <link rel="stylesheet" type="text/css" href="stylee.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<style> 
+a.button-image:visited, 
+a.button-image2:visited, 
+a.button-image3:visited, 
+a.button-image4:visited {
+  color: inherit;
+}
+
+</style>
+
+</head>
+<body>
+  <div class="container">  
+    <header class="header">
+      <br> 
+      <img src ="profpic.PNG" class = "profile-pic"> 
+     <br> <h1 class="title">N I N</h1>
+     <!-- <nav class="navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav> -->
+    </header>
+
+    <div class = "title-divider"> </div>
+    <p class = "gettenured"> <a href = "https://www.webtoons.com/en/challenge/get-tenured/list?title_no=576549" target ="_blank" > <u>  Read "Get Tenured" here </u> </a> </p>
+    <div class = "divider"> </div>
+
+    <section id="about" class="section">
+      <h2 class = "heading">ABOUT ME</h2>
+      <p> Preferred contact information, other facts, and recommended comics I'm currently into. </p>
+      <a href =  "aboutme.html" class = "button1" id = "more-button" > MORE</a>
+      <div class = "divider"> </div>
+    </section>
+    <section id="services" class="section">
+      <h2 class = "heading">COMMISSION</h2>
+     <p> Terms of service and information on the commission process.</p>
+     <a href =  "commission.html" class = "button2" > MORE</a>
+        <div class = "divider"> </div>
+    
+    </section>
+    <section id="portfolio" class="section">
+      <h2 class = "heading">PORTFOLIO</h2>
+      <p> Past artworks I have done for reference.</p>
+      <a href =  "portfolio.html" class = "button3" > MORE</a>
+      <div class="portfolio-item">
+      
+    
+      </div>
+      <div class="portfolio-item">
+    
+    
+        <div class = "divider"> </div>
+      </div>
+    </section>
+    <section id="contact" class="section"> 
+
+      <div class = "portfolio-item2"> 
+      <a href = "https://www.instagram.com/legendary.corn/" target ="_blank" class = "button-link"> 
+        <img src = "instagram.PNG" alt = "Button" class = "button-image">
+      </a>
+  
+      <a href = "https://twitter.com/legendary__corn" target ="_blank" class = "button-link"> 
+        <img src = "twitter.PNG" alt = "Button" class = "button-image2">
+      </a>
+
+      <a href = "https://tiktok.com/@legendarycorn8?_t=8d3MWnNBx18&_r=1" target ="_blank" class = "button-link"> 
+        <img src = "tiktok.PNG" alt = "Button" class = "button-image3">
+      </a>
+
+      <a href = "https://www.redbubble.com/people/legendarycorn/shop?asc=u&ref=account-nav-dropdown" target ="_blank" class = "button-link"> 
+        <img src = "redbubble.PNG" alt = "Button" class = "button-image4">
+      </a>
+    </div>
+
+    </section>
+   <!-- <footer class="footer">
+      <p>&copy; 2023 LegendaryCorn. All rights reserved.</p> 
+    </footer> -->
+  </div>
+
+  <script> function handleMoreButtonClick() {
+    // Hide the elements
+    var elements = document.querySelectorAll('.container, .footer');
+    elements.forEach(function(element) {
+      element.style.display = 'none';
+    });
+  }
+  var moreButton = document.getElementById('more-button');
+moreButton.addEventListener('click', handleMoreButtonClick);
+  
+  
+   </script>
+</body>
+</html>

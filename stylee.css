@@ -1,0 +1,349 @@
+
+/* black background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+  }
+  
+  /* container with elements and gradient from top to bottom */
+  .container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-image: linear-gradient(#0C0C19F5,#26262EF5);
+    z-index: 1;
+    box-shadow: 0 0 20px 10px #26262EF5;
+    border-radius: 5px;
+  }
+
+ /* white border separating sections */
+  .container .divider { 
+    border-top: 1px solid white; 
+    margin: 40px auto;
+    width: 90%;
+  }
+
+  /* white line divider under N I N  only */ 
+  .container .title-divider {
+    border-top: 3px solid white;
+    width: 90px; 
+    margin: 0 auto; 
+
+  }
+
+   /* white line under about me */ 
+   .container .title-divider2 {
+    border-top: 3px solid white;
+    width: 90px; 
+    margin: 40px;
+
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* N I N */ 
+  .title {
+    font-size: 50px;
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    margin-bottom: 40px;
+  }
+  
+ /*  .navigation {
+    margin-top: 20px;
+  }
+  
+  .navigation a {
+    margin-right: 20px;
+    color: #333;
+    text-decoration: none;
+  } */
+  
+  /* headers: about me, commission, portfolio */
+  .section {
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+  }
+
+  /* about me/commission/portolio headings */
+  .section .heading {
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 4px;
+    font-size: 24px; 
+    margin: 40px;
+    margin-bottom: 10px; 
+    color: white;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  /* preferred/terms of service/past artworks */
+  .section p {
+    font-size: 20px;
+    margin: 40px;
+    color: white;
+    margin-top: -3px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+  }
+
+  /*section break that is space between lines of text */
+  .section-break { 
+    margin-bottom: 50px;
+  }
+
+  /* read get tenured here*/ 
+  .gettenured {
+    color: white; 
+    margin: 0;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+  
+.portolio-item h3, 
+.portfolio-item p {
+  color: white;
+}
+
+.footer { 
+text-align: center; 
+color: white; 
+}
+
+/* remove hyperlink */
+.button-link {
+   text-decoration: none; 
+}
+
+/* remove hyperlink after visiting site */ 
+a.button-link:visited {
+  color: inherit; 
+}
+
+.button-image:hover {
+fill: gray;
+}
+
+/* instagram logo*/ 
+.button-image {
+ display: inline-block; 
+width: 60px; 
+height: relative; 
+background-color: transparent;
+border: none; 
+cursor: pointer;
+
+/* transition: background-color 0.9s ease, opacity 0.3s ease; 
+width: 60px;
+height: relative;
+display: inline-block;
+transition: fill 0.5s ease; */
+}
+
+/* twitter logo*/
+.button-image2 {
+  display: inline-block; 
+  width: 60px; 
+  height: relative; 
+  background-color: transparent;
+  border: none; 
+  cursor: pointer;
+  }
+
+  /* tiktok logo */
+  .button-image3 {
+    display: inline-block; 
+    width: 60px; 
+    height: relative; 
+    background-color: transparent;
+    border: none; 
+    cursor: pointer;
+    }
+/* redbubble logo */
+    .button-image4 {
+      display: inline-block; 
+      width: 60px; 
+      height: relative; 
+      background-color: transparent;
+      border: none; 
+      cursor: pointer;
+      }
+
+  .portfolio-item2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  margin-bottom: 20px;
+  }
+
+  /*more button redirecting to "about me" */
+  .button1 { 
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color:transparent;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    margin-left: 40px;
+  }
+
+  /* what happens after hovering over "more" button */
+  .button1:hover {
+    background-color:rgba(255, 255, 255, 0.1);
+  }
+
+  .button1.clicked {
+    /* Add transition styles */
+   /*  background-color: rgba(255, 255, 255, 0.1); */ 
+    transition: background-color 0.5s ease;
+    background-color: #0C0C19F5; 
+  }
+
+/* more button redirecting to commission */ 
+  .button2 { 
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color:transparent;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    margin-left: 40px;
+  }
+
+  .button2:hover {
+    background-color:rgba(255, 255, 255, 0.1);
+  }
+
+  /* more button redirecting to portfolio */ 
+  .button3 { 
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color:transparent;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    margin-left: 40px;
+  }
+
+  .button3:hover {
+    background-color:rgba(255, 255, 255, 0.1);
+  }
+
+  /* about me heading with info underneath*/
+  .heading.aboutme { 
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 4px;
+    font-size: 30px; 
+    margin: 40px;
+    margin-bottom: 10px; 
+    color: white;
+  }
+
+  /*commission heading with info underneath */
+  .heading.commission { 
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 4px;
+    font-size: 30px; 
+    margin: 40px;
+    margin-bottom: 10px; 
+    color: white;
+  }
+/*
+  .box {
+    width: 100%;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 50px 8%;
+  } */
+
+
+ /* groups of images */
+  .gallery { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 20px;
+  
+
+  }
+ /* images within a gallery */
+  .gallery img {
+    width: 100%;
+    padding-bottom: 5px;
+    flex-wrap: wrap; 
+    margin: -10px;
+    margin-bottom: 10px;
+  }
+
+/* holds all of the images */
+  .hold-images { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align:center;
+    margin: 40px 20px 0 20px;
+  } 
+
+  
+
+  .hold-images .box{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    margin-left: 20px;
+  }  
+
+  .hold-images .box .gallery { 
+    display: flex; 
+    flex-direction: column; 
+    width: 48.9%;
+
+  }
+
+  .hold-images .box .gallery img { 
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+  } 
+
+ .profile-pic { 
+  width: 170px; 
+  height: auto;
+ }
